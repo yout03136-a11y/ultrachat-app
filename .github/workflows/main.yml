@@ -20,11 +20,12 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Make gradlew executable
-        run: chmod +x ultrachat-apk/gradlew
-
       - name: Build Debug APK
-        run: cd ultrachat-apk && ./gradlew assembleDebug
+        working-directory: ultrachat-apk
+        run: |
+          chmod +x gradlew
+          chmod +x gradle/wrapper/gradle-wrapper.jar 2>/dev/null || true
+          ./gradlew assembleDebug --stacktrace --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
