@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Chat bubble body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,32 Q20,20 32,20 L76,20 Q88,20 88,32 L88,60 Q88,72 76,72 L58,72 L46,84 L46,72 L32,72 Q20,72 20,60 Z" />
+
+    <!-- Three dots -->
+    <circle android:fillColor="#075E54" android:cx="38" cy="46" android:r="5" />
+    <circle android:fillColor="#075E54" android:cx="54" cy="46" android:r="5" />
+    <circle android:fillColor="#075E54" android:cx="70" cy="46" android:r="5" />
+</vector>
