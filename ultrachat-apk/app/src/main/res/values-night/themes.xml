@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.UltraChat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/green_primary</item>
-        <item name="colorPrimaryDark">@color/green_dark</item>
-        <item name="colorAccent">@color/green_accent</item>
-        <item name="android:windowBackground">@color/bg_dark</item>
-    </style>
-</resources>
