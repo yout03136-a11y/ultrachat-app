@@ -1,0 +1,11 @@
+<hbox spacing="10">
+    <label text="Choose a PDF:">
+    <file-chooser fx:id="fileChooser" />
+    <button text="Upload" onAction="#handleUpload"/> 
+</hbox>
+<hbox spacing="10">
+    <label text="Output Directory:">
+    <text-field fx:id="outputDir" />
+    <button text="Select" onAction="#handleSelectOutputDir" />
+</hbox>
+<button text="Convert" onAction="#handleConvert" />
